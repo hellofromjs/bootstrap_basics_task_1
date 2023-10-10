@@ -1,0 +1,77 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    color: #091133;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 66px;
+    letter-spacing: 1px;
+    margin-bottom: 160px;
+}
+h2 {
+    color: #000;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 50px;
+}
+.input-size {
+    width: 160px;
+    height: 33px;
+}
+.input-size::placeholder, .input-size {
+    color: black;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 16px;
+    padding-left: 5px;
+}
+form {
+    display: inline-flex;
+    justify-content: center;
+    background: #C1C6DF;
+    gap: 15px;
+    padding: 6px 12px;
+    flex-wrap: wrap;
+}
+a {
+    color: #6F7CB2;
+}
+.underline {
+    text-decoration: underline;
+}
+.bold {
+    font-weight: bold;
+}
+.links {
+    font-size: 16px;
+    color: #6F7CB2;
+    line-height: 26px;
+    font-size: 16px;
+    margin-bottom: 27px;
+}
+.style2 {
+    margin-top: 70px;
+    margin-bottom: 27px;
+   ;
+}
+.more-info {
+    width: 236px;
+    height: 51px;
+    background: #C4C4C4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.more-info a {
+    text-decoration: none;
+    color: white;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+ul {
+    padding: 0;
+}
